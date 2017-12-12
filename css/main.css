@@ -1,0 +1,63 @@
+*{
+font-family: 'Cookie', cursive;
+margin-bottom: 3em;
+}
+
+.marcofoto{
+  height: auto;
+  width: auto; 
+}
+
+#img1 {
+  background-image: url(../images/1.jpg);
+}
+
+#img2 {
+  background-image: url(../images/2.jpg);
+}
+
+#img3 {
+  background-image: url(../images/3.jpg);
+}
+
+.fotos {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.circulos{
+  position: absolute;
+  top:95%;
+  width: 60em;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+
+.flechas{
+  position: absolute;
+  display: flex;
+  top:50%;
+  color: pink;
+  font-size: 4em;
+}
+
+#flecha2{
+  margin-left: 17em;
+}
+
+.fa{
+  cursor: pointer;
+}
+
+.fa:hover{
+  color: purple;
+}
+
+i{
+  padding: 0.5em;
+}
